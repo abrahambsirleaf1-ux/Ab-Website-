@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="Ab Tutorial"/>
+    <meta name="description" content="learning coding from the basic and become a full stack developer"/>
+    <meta property="og:title" content="Ab Tutorial"/>   
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://i.postimg.cc/8krnzLxt/inbound7399747716248096388.png"/>
+    <meta property="og:url" content="https://abrahambsirleaf.github.io/ab-tutorial/"/>   
+      
+      <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       }
+
+   html {
+     scroll-behavior: smooth;
+   }
+     
+          
+    body {
+      height: 90vh;
+
+
+      }
+      #header {
+       width: 100%;
+       height: 40vh;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       background-image: url(https://i.postimg.cc/q7LjWLhj/inbound7419550753780704266.jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       position: sticky;
+       background-size: cover;
+       background-attachment: fixed;
+       color:red;
+                  }
+
+ 
+      }
+
+      .header-content {
+        font-size: 30px;
+        }
+        
+      .
+      p {
+        font-size: 17px;
+        }
+        
+       
+      nav {
+        margin-bottom: 10px;  
+        padding: 6px;
+        display: flex;
+           
+  
+              }
+        
+        nav a{
+          color: blue;
+          text-decoration: none;
+          font-size: 15px;
+          }
+      nav p{
+        width:100%;      
+        margin: 3px;
+        border: none;
+        background: white;   
+        border-radius: 10px;
+        padding: 5px; 
+        color: blue;
+        }
+      #HTML {
+        width: 100%;  
+        height: 270vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: white; 
+        color: white;
+        font-size: 27px; 
+        }
+
+      .main {
+        padding: 30px;
+        height: 60vh;
+        }
+      .card {
+        width: 100%;
+        height: 28vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: midnightblue;
+        padding:10px;
+        color: white;      
+        border-radius: 15px; 
+        border-shadow:0 30px 20px rgba(44,0,0,0.6);
+        margin: 9px;
+        font-size:20px;
+        }
+
+      #printbutton {
+          position: absolute;
+          justify-content: left;
+          }
+
+      </style>
+  </head>
+  <body>
+<header id="header">
+  <section id="headersection">
+    <div class="header-content">  
+      <img src="https://i.postimg.cc/8krnzLxt/inbound7399747716248096388.png" alt="AB Logo" width="300" height="300">
+    <h1 style="font-size:50px; color: Yellow; Text-border:>
+      
+  <h1 style="color: ; font-size: 40px;">AB CODING TUTORIAL</h1>
+    <p>Tutorial by Abraham B Sirleaf</p>
+      <hr>
+      <br>
+       
+      <nav>
+      <p><a href="#HTML">HTML</a></p>
+      <p><a href="#aboutus">CSS</a></p>
+      <p><a href="#History">JAVASCRIPT</a></p>
+        <p>abrahambsirleaf1@gmail.com</p>
+      </nav>
+    </div>
+    
+  </section>
+</header>  
+    <br><br>
+    <section id="HTML">
+      <div class="main">
+        <h2 style="color: midnightblue;">Welcome to HTML Tutorial</h2><br>
+        <hr>
+        <section>
+        <div class="card">
+        <h4 style="color: white;"><strong>LESSON 1: WHAT IS HTML</strong></h4>
+          <hr>
+        <br> <br>
+<p>HTML = The language that builds structure of website</p>
+        <br>
+        </div>
+        </section>
+        
+          <hr>
+      <section>
+  <div class="card">
+<h4 style="color: white;">LESSON 2: BASIC STRUCTURE </h4><br>
+    <hr>
+<p>
+  &lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+  &lt;title&gt;My Website&lt;/title&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;
+  All visible content goes here
+&lt;/body&gt;<br>
+&lt;/html&gt;
+</p>
+        </div>
+      </section>
+  <section>
+    <div class="card">
+<h4 style="color: white;">LESSON 3: HEADINGS</h4><br>
+&lt;h1&gt;Biggest Heading&lt;/h1&gt;<br>
+&lt;h2&gt;Second Heading&lt;/h2&gt;<br>
+&lt;h3&gt;Third Heading&lt;/h3&gt;<br>
+&lt;h4&gt;Small Heading&lt;/h4&gt;<br>
+&lt;h5&gt;Smaller&lt;/h5&gt;<br>
+&lt;h6&gt;Smallest&lt;/h6&gt;<br><br>
+    </div>
+  </section>
+        <section>
+          <div class="card">
+<h4 style="color: white;"">LESSON 4: PARAGRAPH </h4><br>
+&lt;p&gt;This is paragraph&lt;/p&gt;<br>
+&lt;p&gt;Second paragraph&lt;/p&gt;<br><br>
+<hr>
+          </div>
+        </section>
+  <section>
+    <div class="card">
+<h4 style="color: white;">LESSON 5: LINE BREAK AND HORIZONTAL LINE</h4>
+&lt;br&gt; = break line <br>
+&lt;hr&gt; = horizontal line
+Example:
+&lt;p&gt;First line&lt;br&gt;Second line&lt;/p&gt;
+&lt;hr&gt;
+    </div>
+  </section>
+        
+<section>
+  <div class="card">
+<h4 style="color: white;">LESSON 6: LINKS - NAVIGATION</h4>
+&lt;a href="https://google.com"&gt;Go to Google&lt;/a&gt;
+&lt;a href="#about"&gt;Go to About Section&lt;/a&gt;
+  </div>
+</section>
+    
+LESSON 7: IMAGES
+&lt;img src="logo.jpg" alt="My Logo"&gt;
+&lt;img src="https://example.com/photo.jpg" alt="Photo"&gt;
+
+LESSON 8: LISTS
+Unordered List:
+&lt;ul&gt;
+  &lt;li&gt;Rice&lt;/li&gt;
+  &lt;li&gt;Beans&lt;/li&gt;
+  &lt;li&gt;Fish&lt;/li&gt;
+&lt;/ul&gt;
+
+Ordered List:
+&lt;ol&gt;
+  &lt;li&gt;First&lt;/li&gt;
+  &lt;li&gt;Second&lt;/li&gt;
+  &lt;li&gt;Third&lt;/li&gt;
+&lt;/ol&gt;
+
+LESSON 9: DIV, SECTION, NAV, HEADER, FOOTER
+&lt;header id="header"&gt;
+  &lt;nav&gt;
+    &lt;a href="#home"&gt;Home&lt;/a&gt;
+    &lt;a href="#about"&gt;About&lt;/a&gt;
+  &lt;/nav&gt;
+&lt;/header&gt;
+
+&lt;section id="home"&gt;
+  &lt;div class="box"&gt;
+    &lt;h1&gt;Home Content&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;footer&gt;
+  &lt;p&gt;Copyright 2026&lt;/p&gt;
+&lt;/footer&gt;
+
+LESSON 10: ID vs CLASS
+ID = Unique, use # in CSS, one per page
+&lt;div id="header"&gt;&lt;/div&gt;
+
+CLASS = Group, use . in CSS, many per page
+&lt;div class="box"&gt;&lt;/div&gt;
+&lt;div class="box"&gt;&lt;/div&gt;
+
+LESSON 11: FORM
+&lt;form&gt;
+  &lt;input type="text" placeholder="Enter name"&gt;
+  &lt;input type="email" placeholder="Enter email"&gt;
+  &lt;input type="password" placeholder="Password"&gt;
+  &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;
+
+LESSON 12: TABLE
+&lt;table border="1"&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Name&lt;/th&gt;
+    &lt;th&gt;Age&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;John&lt;/td&gt;
+    &lt;td&gt;20&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+LESSON 13: COMPLETE EXAMPLE
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Hold Fast Ministry&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;h1&gt;Hold Fast Ministry&lt;/h1&gt;
+    &lt;nav&gt;
+      &lt;a href="#home"&gt;Home&lt;/a&gt;
+      &lt;a href="#about"&gt;About&lt;/a&gt;
+    &lt;/nav&gt;
+  &lt;/header&gt;
+  &lt;section id="home"&gt;
+    &lt;h2&gt;Welcome&lt;/h2&gt;
+    &lt;p&gt;Welcome
+        
+      </div>
+    </section>
+    <script>
+      alert ("Welcome to Ab website ");
+
+    </script>
+  </body>
+</html>
